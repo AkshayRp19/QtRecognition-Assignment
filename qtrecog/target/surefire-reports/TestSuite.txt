@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 207.835 s <<< FAILURE! - in TestSuite
+Qualitest.qtrecog.ActivityPage.getImageOnScreen  Time elapsed: 9.487 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Qualitest.qtrecog.ActivityPage.getImageOnScreen(ActivityPage.java:60)
+
+Qualitest.qtrecog.ActivityPage.getNameOnScreen  Time elapsed: 7.529 s  <<< FAILURE!
+java.lang.AssertionError: expected [P Akshay Raghotham] but found [Madhu Sudhan M]
+	at Qualitest.qtrecog.ActivityPage.getNameOnScreen(ActivityPage.java:48)
+
+Qualitest.qtrecog.ActivityPage.titleName  Time elapsed: 1.476 s  <<< FAILURE!
+java.lang.AssertionError: expected [QTRecognition] but found []
+	at Qualitest.qtrecog.ActivityPage.titleName(ActivityPage.java:71)
+
+Qualitest.qtrecog.OthersTestCases.selfKudos  Time elapsed: 16.99 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Qualitest.qtrecog.OthersTestCases.selfKudos(OthersTestCases.java:115)
+
+Qualitest.qtrecog.RecentContactsTestCases.fetchRecent  Time elapsed: 15.54 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Qualitest.qtrecog.RecentContactsTestCases.fetchRecent(RecentContactsTestCases.java:45)
+
+Qualitest.qtrecog.InvalidSendKudosTest.noCitation  Time elapsed: 10.777 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Qualitest.qtrecog.InvalidSendKudosTest.noCitation(InvalidSendKudosTest.java:67)
+
+Qualitest.qtrecog.InvalidSendKudosTest.nonQtEmail  Time elapsed: 11.458 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Qualitest.qtrecog.InvalidSendKudosTest.nonQtEmail(InvalidSendKudosTest.java:48)
+
+Qualitest.qtrecog.HomePageUrl.getGold  Time elapsed: 3.252 s  <<< FAILURE!
+java.lang.AssertionError: expected [#FECC160] but found [#FDCC16]
+	at Qualitest.qtrecog.HomePageUrl.getGold(HomePageUrl.java:87)
+
+Qualitest.qtrecog.HomePageUrl.getWhite  Time elapsed: 3.31 s  <<< FAILURE!
+java.lang.AssertionError: expected [#FECC160] but found [#FFFFFF]
+	at Qualitest.qtrecog.HomePageUrl.getWhite(HomePageUrl.java:101)
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Qualitest.qtrecog.AppTest"/>
+      <class name="Qualitest.qtrecog.ActivityPage"/>
+      <class name="Qualitest.qtrecog.OthersTestCases"/>
+      <class name="Qualitest.qtrecog.RecentContactsTestCases"/>
+      <class name="Qualitest.qtrecog.SearchKudosTest"/>
+      <class name="Qualitest.qtrecog.InvalidSendKudosTest"/>
+      <class name="Qualitest.qtrecog.HomePageUrl"/>
+      <class name="Qualitest.qtrecog.SendKudosTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
